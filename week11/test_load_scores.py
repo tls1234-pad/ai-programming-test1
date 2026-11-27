@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from load_scores import load_scores
+from week11.load_scores import load_scores
 
 
 # 테스트 파일과 같은 폴더에서 CSV를 찾습니다.
