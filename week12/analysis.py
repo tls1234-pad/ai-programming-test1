@@ -16,8 +16,8 @@ def 정제(df):
     print("빈 칸 제거   ", len(df))
     df = df.drop_duplicates().copy()
     print("중복 제거    ", len(df))
-    df["반"] = df["반"].str.strip()
-    df["과목"] = df["과목"].str.strip()
+    #df["반"] = df["반"].str.strip()
+    #df["과목"] = df["과목"].str.strip()
     print("공백 제거    ", len(df))
     df = df[(df["점수"] >= 0) & (df["점수"] <= 100)]
     print("범위 밖 제거 ", len(df))
